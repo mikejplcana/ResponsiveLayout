@@ -1,0 +1,46 @@
+body *{
+    
+    display: flex;
+    margin: 5px;
+}
+
+body{
+    display: flex;
+    margin: 5px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+#mainbar{
+    height: 50px;
+    flex-grow: 4;
+    border: 1px solid black;
+}
+#settings{
+    height: 50px;
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#contentBox{
+    height: 90vh;
+}
+#options{
+    flex-grow: 1;
+    flex-direction: column;
+}
+#options div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#content{
+    flex-grow: 3;
+    border: 1px solid black;
+}
+#adspace{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+footer{
+    height: 10vh;
+    border: 1px solid black;
+}
